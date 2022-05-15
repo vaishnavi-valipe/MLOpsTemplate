@@ -60,7 +60,7 @@ jobs:
       --model_folder ${{inputs.model_folder}}
     inputs:
       run_mode: "remote"
-      model_name: "nyc_fare_prediction"
+      model_name: "nyc_fare_prediction_1"
       prep_data: ${{parent.jobs.prepjob.outputs.prep_data}}
       model_folder: ${{parent.jobs.trainjob.outputs.model_folder}}
 
