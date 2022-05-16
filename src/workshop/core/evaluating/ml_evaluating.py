@@ -84,7 +84,6 @@ def main(args):
         mlflow.log_metric("rmse_candidate",rmse_candidate)
         
 
-        
         current_model=None
 
         try:
